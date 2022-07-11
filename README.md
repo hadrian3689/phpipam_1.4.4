@@ -23,7 +23,6 @@ python3 phpipam_1.4.4.py -t http://phpipam.com/ -u username -p password -f /etc/
 python3 phpipam_1.4.4.py -t http://phpipam.com/ -u username -p password -w /var/www/html/cmd.php
 ```
 
-
 ## Help
 
 For Help Menu
