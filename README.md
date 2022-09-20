@@ -1,8 +1,4 @@
-# Project Title
-
-CVE-2022-23046 phpIPAM 1.4.4 - SQL Injection
-
-## Description
+# CVE-2022-23046 phpIPAM 1.4.4 - SQL Injection
 
 phpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the subnet parameter while searching a subnet via app/admin/routing/edit-bgp-mapping-search.php. This project currently prints out database information and host version information. It can also attempt to read files and write to the server as well.
 
